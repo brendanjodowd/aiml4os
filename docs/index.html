@@ -11,9 +11,9 @@
 
 
 
-<title>rspatialdata</title>
+<title>AI/ML for Official Statistics</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -54,6 +54,7 @@ if (window.hljs) {
   }
 }
 </script>
+
 
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -173,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -182,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -235,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -248,7 +249,7 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Tutorials
      
     <span class="caret"></span>
@@ -304,8 +305,8 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="https://github.com/rspatialdata/rspatialdata.github.io">
-    <span class="fa fa-github"></span>
+  <a href="http://Paula-Moraga.github.io">
+    <span class="fa fa-globe"></span>
      
   </a>
 </li>
@@ -322,27 +323,30 @@ $(document).ready(function () {
 </div>
 
 
-<div id="rspatialdata-is-a-collection-of-data-sources-and-tutorials-on-visualising-spatial-data-using-r" class="section level1">
-<h1><strong>rspatialdata</strong> is a collection of data sources and tutorials on visualising spatial data using R</h1>
+<div
+id="aiml4os-is-a-one-stop-shop-of-resources-to-support-the-use-of-ai-and-ml-in-the-production-official-statistics"
+class="section level1">
+<h1><strong>AIML4OS</strong> is a one-stop-shop of resources to support
+the use of AI and ML in the production official statistics</h1>
 <div class="icon-grid">
 <div class="row">
 <div class="col-sm-1">
 
 </div>
 <div class="col-sm-2">
-<a href="admin_boundaries.html"><img src="images/admin_boundaries.jpg"></a>
+<a href="admin_boundaries.html"><img src="images/wp1.png"></a>
 </div>
 <div class="col-sm-2">
-<a href="osm.html"><img src="images/osm.jpg"></a>
+<a href="osm.html"><img src="images/wp2.png"></a>
 </div>
 <div class="col-sm-2">
-<a href="population.html"><img src="images/population.jpg"></a>
+<a href="population.html"><img src="images/wp3.png"></a>
 </div>
 <div class="col-sm-2">
-<a href="elevation.html"><img src="images/elevation.jpg"></a>
+<a href="elevation.html"><img src="images/wp4.png"></a>
 </div>
 <div class="col-sm-2">
-<a href="temperature.html"><img src="images/temperature.jpg"></a>
+<a href="temperature.html"><img src="images/wp5.png"></a>
 </div>
 <div class="col-sm-1">
 
@@ -353,19 +357,19 @@ $(document).ready(function () {
 
 </div>
 <div class="col-sm-2">
-<a href="rainfall.html"><img src="images/rainfall.jpg"></a>
+<a href="rainfall.html"><img src="images/wp6.png"></a>
 </div>
 <div class="col-sm-2">
-<a href="humidity.html"><img src="images/humidity.jpg"></a>
+<a href="humidity.html"><img src="images/wp7.png"></a>
 </div>
 <div class="col-sm-2">
-<a href="vegetation.html"><img src="images/vegetation.jpg"></a>
+<a href="vegetation.html"><img src="images/wp8.png"></a>
 </div>
 <div class="col-sm-2">
-<a href="land_cover.html"><img src="images/land_cover.jpg"></a>
+<a href="land_cover.html"><img src="images/wp9.png"></a>
 </div>
 <div class="col-sm-2">
-<a href="dhs-data.html"><img src="images/dhs.jpg"></a>
+<a href="dhs-data.html"><img src="images/wp10.png"></a>
 </div>
 <div class="col-sm-1">
 
@@ -376,13 +380,13 @@ $(document).ready(function () {
 
 </div>
 <div class="col-sm-2">
-<a href="malaria.html"><img src="images/malaria.jpg"></a>
+<a href="malaria.html"><img src="images/wp11.png"></a>
 </div>
 <div class="col-sm-2">
-<a href="air_pollution.html"><img src="images/air_pollution.jpg"></a>
+<a href="air_pollution.html"><img src="images/wp12.png"></a>
 </div>
 <div class="col-sm-2">
-<a href="species_occurrence.html"><img src="images/species_occurrence.jpg"></a>
+<a href="species_occurrence.html"><img src="images/wp13.png"></a>
 </div>
 <div class="col-sm-3">
 
@@ -392,13 +396,17 @@ $(document).ready(function () {
 <p><br></p>
 <div id="publication" class="section level2">
 <h2>Publication</h2>
-<p>Paula Moraga and Laurie Baker. rspatialdata: a collection of data sources and tutorials on downloading and visualising spatial data using R. F1000Research 2022, 11:770 (<a href="https://doi.org/10.12688/f1000research.122764.1" class="uri">https://doi.org/10.12688/f1000research.122764.1</a>)</p>
+<p>Paula Moraga and Laurie Baker. rspatialdata: a collection of data
+sources and tutorials on downloading and visualising spatial data using
+R. F1000Research 2022, 11:770 (<a
+href="https://doi.org/10.12688/f1000research.122764.1"
+class="uri">https://doi.org/10.12688/f1000research.122764.1</a>)</p>
 <center>
 <p><a href="https://f1000research.com/articles/11-770" target="_blank"><img src="images/f1000paper.png" /></a></p>
 </center>
 <hr />
 <p style="color:grey; font-size: 13px;">
-Last updated: 2023-01-07
+Last updated: 2025-07-24
 </p>
 </div>
 </div>

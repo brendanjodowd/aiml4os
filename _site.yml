@@ -38,7 +38,6 @@ navbar:
     - text: "Contributors"
       href: contributors.html
   right:
-  right:
     - icon: fa-globe
       href: http://Paula-Moraga.github.io
 output:
