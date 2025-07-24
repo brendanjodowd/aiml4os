@@ -32,7 +32,7 @@ navbar:
         - text: "LLMs"
           href: wp_landing_page.html 
         - text: "Synthetic Data"
-          href: species_occurrence.html 
+          href: wp_landing_page.html 
     - text: "News"
       href: news.html
     - text: "Consortium"
