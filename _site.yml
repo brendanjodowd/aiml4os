@@ -12,30 +12,30 @@ navbar:
         - text: "Communication"
           href: wp_landing_page.html
         - text: "AI/ML Lab"
-          href: population.html
+          href: wp_landing_page.html
         - text: "Ecosystem Monitoring"
-          href: elevation.html
+          href: wp_landing_page.html
         - text: "Standards, Methodology, Implementation"
-          href: temperature.html
+          href: wp_landing_page.html
         - text: "Knowledge Repository"
-          href: rainfall.html
+          href: wp_landing_page.html
         - text: "Earth Observation Data"
-          href: humidity.html
+          href: wp_landing_page.html
         - text: "Editing"
-          href: vegetation.html
+          href: wp_landing_page.html
         - text: "Imputation"
-          href: land_cover.html
+          href: wp_landing_page.html
         - text: "Text to Code"
-          href: dhs-data.html
+          href: wp_landing_page.html
         - text: "Supply Chain Networks"
-          href: malaria.html
+          href: wp_landing_page.html
         - text: "LLMs"
-          href: air_pollution.html 
+          href: wp_landing_page.html 
         - text: "Synthetic Data"
           href: species_occurrence.html 
-    - text: "Spatial Analysis"
+    - text: "News"
       href: spatio_temporal_analysis.html
-    - text: "Contributors"
+    - text: "Consortium"
       href: contributors.html
   right:
     - icon: fa-globe
