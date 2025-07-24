@@ -10,51 +10,51 @@ pagetitle: "AI/ML for Official Statistics"
   <div class="row">
   <div class="col-sm-1"></div>
   <div class="col-sm-2">
-  <a href="admin_boundaries.html"><img src="images/wp1.png"></a>
+  <a href="admin_boundaries.html"><img src="images/wp1.jpg"></a>
   </div>
   <div class="col-sm-2">
-  <a href="osm.html"><img src="images/wp2.png"></a>
+  <a href="osm.html"><img src="images/wp2.jpg"></a>
   </div>
   <div class="col-sm-2">
-  <a href="population.html"><img src="images/wp3.png"></a>
+  <a href="population.html"><img src="images/wp3.jpg"></a>
   </div>
   <div class="col-sm-2">
-  <a href="elevation.html"><img src="images/wp4.png"></a>
+  <a href="elevation.html"><img src="images/wp4.jpg"></a>
   </div>
   <div class="col-sm-2">
-  <a href="temperature.html"><img src="images/wp5.png"></a>
+  <a href="temperature.html"><img src="images/wp5.jpg"></a>
   </div>
   <div class="col-sm-1"></div>
   </div>
   <div class="row">
   <div class="col-sm-1"></div>
   <div class="col-sm-2">
-  <a href="rainfall.html"><img src="images/wp6.png"></a>
+  <a href="rainfall.html"><img src="images/wp6.jpg"></a>
   </div>
   <div class="col-sm-2">
-  <a href="humidity.html"><img src="images/wp7.png"></a>
+  <a href="humidity.html"><img src="images/wp7.jpg"></a>
   </div>
   <div class="col-sm-2">
-  <a href="vegetation.html"><img src="images/wp8.png"></a>
+  <a href="vegetation.html"><img src="images/wp8.jpg"></a>
   </div>
   <div class="col-sm-2">
-  <a href="land_cover.html"><img src="images/wp9.png"></a>
+  <a href="land_cover.html"><img src="images/wp9.jpg"></a>
   </div>
   <div class="col-sm-2">
-  <a href="dhs-data.html"><img src="images/wp10.png"></a>
+  <a href="dhs-data.html"><img src="images/wp10.jpg"></a>
   </div>
   <div class="col-sm-1"></div>
   </div>
   <div class="row">
   <div class="col-sm-3"></div>
   <div class="col-sm-2">
-  <a href="malaria.html"><img src="images/wp11.png"></a>
+  <a href="malaria.html"><img src="images/wp11.jpg"></a>
   </div>
   <div class="col-sm-2">
-  <a href="air_pollution.html"><img src="images/wp12.png"></a>
+  <a href="air_pollution.html"><img src="images/wp12.jpg"></a>
   </div>
   <div class="col-sm-2">
-  <a href="species_occurrence.html"><img src="images/wp13.png"></a>
+  <a href="species_occurrence.html"><img src="images/wp13.jpg"></a>
   </div>
   <div class="col-sm-3"></div>
   </div>
