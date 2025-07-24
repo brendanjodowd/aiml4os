@@ -5,33 +5,33 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Tutorials"
+    - text: "Workpackages"
       menu:
-        - text: "Administrative boundaries"
-          href: admin_boundaries.html
-        - text: "Open Street Map data"
-          href: osm.html
-        - text: "Population"
+        - text: "Coordination"
+          href: wp_landing_page.html
+        - text: "Communication"
+          href: wp_landing_page.html
+        - text: "AI/ML Lab"
           href: population.html
-        - text: "Elevation"
+        - text: "Ecosystem Monitoring"
           href: elevation.html
-        - text: "Temperature"
+        - text: "Standards, Methodology, Implementation"
           href: temperature.html
-        - text: "Rainfall"
+        - text: "Knowledge Repository"
           href: rainfall.html
-        - text: "Humidity"
+        - text: "Earth Observation Data"
           href: humidity.html
-        - text: "Vegetation"
+        - text: "Editing"
           href: vegetation.html
-        - text: "Land Cover"
+        - text: "Imputation"
           href: land_cover.html
-        - text: "DHS"
+        - text: "Text to Code"
           href: dhs-data.html
-        - text: "Malaria"
+        - text: "Supply Chain Networks"
           href: malaria.html
-        - text: "Air Pollution"
+        - text: "LLMs"
           href: air_pollution.html 
-        - text: "Species Occurrence"
+        - text: "Synthetic Data"
           href: species_occurrence.html 
     - text: "Spatial Analysis"
       href: spatio_temporal_analysis.html
