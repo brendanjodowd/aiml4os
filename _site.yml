@@ -34,9 +34,9 @@ navbar:
         - text: "Synthetic Data"
           href: species_occurrence.html 
     - text: "News"
-      href: spatio_temporal_analysis.html
+      href: news.html
     - text: "Consortium"
-      href: contributors.html
+      href: consortium.html
   right:
     - icon: fa-globe
       href: https://github.com/aiml4os
