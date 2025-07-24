@@ -1,7 +1,7 @@
-name: "rspatialdata"
+name: "AIML4OS"
 output_dir: "docs"
 navbar:
-  title: "rspatialdata"
+  title: "AIML4OS"
   left:
     - text: "Home"
       href: index.html
@@ -39,7 +39,7 @@ navbar:
       href: contributors.html
   right:
     - icon: fa-globe
-      href: http://Paula-Moraga.github.io
+      href: https://github.com/aiml4os
 output:
   html_document:
     theme: cosmo
