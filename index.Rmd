@@ -71,6 +71,9 @@ pagetitle: "AI/ML for Official Statistics"
 - [Eurostat CROS](https://cros.ec.europa.eu/dashboard/aiml4os)
 - [Deliverable tracker](https://aiml4os.shinyapps.io/project_tracker)
 
+![Eurostat funded](images/eurostat_funding.png){style="max-width: 100%; height: auto;"}
+
+
 
 <!-- <center> -->
 
