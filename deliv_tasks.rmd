@@ -1,0 +1,11 @@
+---
+title: "Deliverables and Tasks"
+output:
+  html_document:
+    css: "styles.css"
+---
+
+Here there'll be a table of deliverables, and another on tasks
+
+
+<br>

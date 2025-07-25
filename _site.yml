@@ -35,6 +35,8 @@ navbar:
           href: wp_landing_page.html 
     - text: "News"
       href: news.html
+    - text: "Deliverables & Tasks"
+      href: deliv_tasks.html
     - text: "Consortium"
       href: consortium.html
   right:
