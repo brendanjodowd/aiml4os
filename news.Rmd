@@ -5,8 +5,18 @@ output:
     css: "styles.css"
 ---
 
-
 <br>
+
+```{=html}
+<style>
+.tight-headings h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+</style>
+```
+
+::: tight-headings
 
 ### [Our first newsletter](https://cros.ec.europa.eu/system/files/2025-03/1.NEWSLETTER%20AIML4OS.pdf), highlighting the project launch, upcoming datalab presentation, and planned participation at NTTS 2025.
 
@@ -15,5 +25,7 @@ output:
 ### [Our third newsletter](https://cros.ec.europa.eu/system/files/2025-05/3.NEWSLETTER%20AIML4OS.pdf) was released after the first year of the project. It looked at plans across all of the workpackages, as well as an update following NTTS 2025.
 
 ### [Newsletter number four](https://cros.ec.europa.eu/system/files/2025-05/3.NEWSLETTER%20AIML4OS.pdf) reports on an in-person meeting of WP12, more details on WP10, as well as a template for training materials.
+
+:::
 
 <br>
