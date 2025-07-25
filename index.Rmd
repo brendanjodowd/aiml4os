@@ -69,7 +69,7 @@ pagetitle: "AI/ML for Official Statistics"
 
 - [LinkedIn](https://www.linkedin.com/company/essnet-aiml4os/)
 - [Eurostat CROS](https://cros.ec.europa.eu/dashboard/aiml4os)
-- [Deliverable tracker](https://brendanjodowd.github.io/aiml4os/)
+- [Deliverable tracker](https://aiml4os.shinyapps.io/project_tracker)
 
 
 <!-- <center> -->
