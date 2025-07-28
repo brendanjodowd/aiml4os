@@ -5,7 +5,28 @@ output:
     css: "styles.css"
 ---
 
-Here there'll be a table of deliverables, and another on tasks
+## Deliverables
 
+```{r , echo=F  }
+
+deliv <- readRDS('deliv_tasks_resources/deliv_data.rds')
+names(deliv) <- c('Description', 'Organisation', 'Workpackage', 'ID' , 'Title' , 'Due Date')
+deliv$Workpackage <- as.character(deliv$Workpackage)
+DT::datatable(deliv , 
+              filter = 'top',
+              options = list(pageLength = 5))
+```
+
+## Tasks
+
+```{r , echo=F  }
+
+tasks <- readRDS('deliv_tasks_resources/task_data.rds')
+names(tasks) <- c('Workpackage', 'ID' , 'Start Date' , 'End Date', 'Description')
+tasks$Workpackage <- as.character(tasks$Workpackage)
+DT::datatable(tasks , 
+              filter = 'top',
+              options = list(pageLength = 5))
+```
 
 <br>
