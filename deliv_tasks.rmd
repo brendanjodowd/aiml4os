@@ -17,6 +17,7 @@ deliv$Organisation <- factor(deliv$Organisation)
 
 DT::datatable(deliv , 
               filter = 'top',
+              rownames = F,
               options = list(pageLength = 5))
 ```
 
@@ -32,6 +33,7 @@ tasks$Workpackage <- factor(tasks$Workpackage, levels = as.character(1:13))
 
 DT::datatable(tasks , 
               filter = 'top',
+              rownames = F,
               options = list(pageLength = 5))
 ```
 
