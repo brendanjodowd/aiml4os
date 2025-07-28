@@ -11,6 +11,7 @@ output:
 
 deliv <- readRDS('deliv_tasks_resources/deliv_data.rds')
 names(deliv) <- c('Description', 'Organisation', 'Workpackage', 'ID' , 'Title' , 'Due Date')
+
 deliv$Workpackage <- as.character(deliv$Workpackage)
 DT::datatable(deliv , 
               filter = 'top',
@@ -23,6 +24,7 @@ DT::datatable(deliv ,
 
 tasks <- readRDS('deliv_tasks_resources/task_data.rds')
 names(tasks) <- c('Workpackage', 'ID' , 'Start Date' , 'End Date', 'Description')
+tasks <- tasks[ , c('Description','Workpackage', 'ID' , 'Start Date' , 'End Date')]
 tasks$Workpackage <- as.character(tasks$Workpackage)
 DT::datatable(tasks , 
               filter = 'top',
