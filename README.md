@@ -2,6 +2,8 @@
 
 ### AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.
 
+Link to page on github pages: [https://brendanjodowd.github.io/aiml4os/](https://brendanjodowd.github.io/aiml4os/)
+
 *The structure for this github pages website is taken from [https://rspatialdata.github.io/](https://rspatialdata.github.io/)*
 
 This is an ESSnet project, funded by Eurostat, and will run for four years from April 2024 to March 2028.
