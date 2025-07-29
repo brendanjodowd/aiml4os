@@ -1,25 +1,25 @@
-# rspatialdata
+# AIML4OS
 
-### rspatialdata is a collection of data sources and tutorials on visualising spatial data using R
+### AI and Machine Learning for Official Statistics (AIML4OS) is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.
 
-### [https://rspatialdata.github.io/](https://rspatialdata.github.io/)
+*The structure for this github pages website is taken from [https://rspatialdata.github.io/](https://rspatialdata.github.io/)*
 
-Tutorials are available on the following spatial properties
+This is an ESSnet project, funded by Eurostat, and will run for four years from April 2024 to March 2028.
 
-- Administrative boundaries
-- Open Street Map data
-- Population
-- Elevation
-- Temperature
-- Rainfall
-- Humidity
-- Vegetation
-- Land Cover
-- DHS
-- Malaria
-- Air Pollution
-- Species Occurrence
+There are 13 workpackages in this project:
 
-<img src="images/lagos_hospitals.PNG" width="500">
-<img src="images/nigeria_population.PNG" width="500">
-<img src="images/ndvi_mongolia.PNG" width="500">
+1. Project management and coordination
+2. Communication and community engagement
+3. ESS AI/ML lab: Technical infrastructure and organisational setup
+4. AI/ML state-of-play and ecosystem monitoring
+5. Standards, methodological and implementation frameworks
+6. Knowledge repository and training material 
+7. Use Case: AI/Ml on earth observation data, satellite imagery
+8. Use Case: Statistically valid and efficient editing and imputation in official statistics by AI/ML – with a special focus on editing
+9. Use Case: Imputation focus - Statistically valid and efficient editing and imputation in official statistics by AI/ML – with a special focus on imputation
+10. Use Case: From text to code - Experiences and potential of the use of AI/ML for classifying and coding 
+11. Use Case: Applying ML for estimating firm-level supply chain networks
+12. Use Case: Large language models
+13. Use Case: Generation of synthetic data in official statistics: techniques and applications
+
+There are 55 different tasks and 39 deliverables across these workpackages. 
