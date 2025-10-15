@@ -32,6 +32,19 @@ h4, .h4 {
   margin-right: auto;
 }
 
+.icon-grid .col-sm-1 img:hover {
+  transform:scale(1.1);
+}
+
+.icon-grid .col-sm-1 img {
+  height: 90%;
+  width: 90%;
+  transition:transform .25s ease;
+  display: block;
+  margin-bottom: 2em;
+}
+
+
 .icon-grid .col-sm-2 img:hover {
   transform:scale(1.1);
 }

@@ -32,6 +32,11 @@ h4, .h4 {
   margin-right: auto;
 }
 
+.icon-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .icon-grid .col-sm-2 img:hover {
   transform:scale(1.1);
 }
