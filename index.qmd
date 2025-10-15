@@ -6,7 +6,7 @@ pagetitle: "AI/ML for Official Statistics"
 
 **AI and Machine Learning for Official Statistics (AIML4OS)** is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.
 
-<br><br>
+<br>
 
 ```{=html}
 
@@ -37,14 +37,6 @@ pagetitle: "AI/ML for Official Statistics"
 - [Deliverable tracker](https://aiml4os.shinyapps.io/project_tracker)
 
 ![Grant Agreement number: 101146355 — (AIML4OS — SMP-ESS-2023-AI-ML4OS-IBA)](images/eurostat_funding.png){style="max-width: 100%; height: auto;"}
-
-
-
-<!-- <center> -->
-
-<!-- <a href="https://f1000research.com/articles/11-770" target="_blank"><img src="images/f1000paper.png" /></a> -->
-
-<!-- </center> -->
 
 
 ---
