@@ -50,8 +50,9 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    footer: footer.html
     toc: false
+    includes:
+      after-body: footer.html
 
 
   
