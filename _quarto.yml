@@ -45,13 +45,18 @@ website:
     right:
     - icon: fa-globe
       href: https://github.com/aiml4os
+  page-footer: 
+    center: 
+      - icon: github
+        href: https://github.com/aiml4os
+      - icon: linkedin 
+        href: https://www.linkedin.com/company/essnet-aiml4os
 
 format: 
   html:
     css: styles.css
     toc: false
-    includes:
-      after-body: footer.html
+    
 
 
   
