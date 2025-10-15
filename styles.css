@@ -32,9 +32,35 @@ h4, .h4 {
   margin-right: auto;
 }
 
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1em;
+  justify-items: center;
+}
+
+.icon-grid a {
+  display: block;
+}
+
+.icon-grid img {
+  height: 90%;
+  width: 90%;
+  transition:transform .25s ease;
+  display: block;
+  margin-bottom: 2em;
+}
+.icon-grid img hover {
+  transform:scale(1.1);
+}
+
 .icon-grid .row {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .icon-grid .col-sm-2 img:hover {
