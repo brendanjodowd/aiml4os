@@ -35,9 +35,11 @@ h4, .h4 {
 
 .icon-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1em;
   justify-items: center;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .icon-grid a {
@@ -45,8 +47,10 @@ h4, .h4 {
 }
 
 .icon-grid img {
-  height: 90%;
   width: 90%;
+  max-width: 120px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   transition:transform .25s ease;
   display: block;
   margin-bottom: 2em;
