@@ -35,7 +35,8 @@ h4, .h4 {
 
 .icon-grid {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important;
+  /*grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important;*/
+  grid-template-columns: repeat(5, 1fr);
   gap: 10px !important;
   justify-items: center !important;
   /*align-items: center !important;*/
