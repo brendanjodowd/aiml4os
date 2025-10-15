@@ -5,6 +5,7 @@ project:
 website: 
   title: "AIML4OS"
   navbar: 
+    logo: images/aiml_logo.png
     left:
     - text: "Home"
       href: index.qmd
@@ -42,9 +43,13 @@ website:
       href: deliv_tasks.qmd
     - text: "Consortium"
       href: consortium.qmd
-    right:
-    - icon: fa-globe
-      href: https://github.com/aiml4os
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/company/essnet-aiml4os
+        text: AIML4OS on LinkedIn
+      - icon: github
+        href: https://github.com/aiml4os
+        text: AIML4OS GitHub
   page-footer: 
     center: 
       - icon: github
