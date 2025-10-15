@@ -4,11 +4,11 @@ pagetitle: "AI/ML for Official Statistics"
 
 # **AIML4OS** is a one-stop-shop of resources to support the use of AI and ML in the production of official statistics
 
-**AI and Machine Learning for Official Statistics (AIML4OS)** is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028
+**AI and Machine Learning for Official Statistics (AIML4OS)** is an ESSnet project aimed at delivering a comprehensive suite of resources, guidelines, methodologies and use cases for the implementation of AI/ML in Official Statistics. There are 15 funded countries in the consortium. The project is running from April 2024 to March 2028.
 
 <br><br>
 
-:::{.raw-html}
+```{=html}
 
 <div class="icon-grid">
   <a href="wp_landing_page.qmd"><img src="images/wp1.jpg"></a>
@@ -26,7 +26,7 @@ pagetitle: "AI/ML for Official Statistics"
   <a href="wp_landing_page.qmd"><img src="images/wp13.jpg"></a>
 </div>
 
-:::
+```
 
 <br>
 
