@@ -1,0 +1,57 @@
+project: 
+  type: website
+  output-dir: docs
+
+website: 
+  title: "AIML4OS"
+  navbar: 
+    left:
+    - text: "Home"
+      href: index.qmd
+    - text: "Workpackages"
+      menu:
+        - text: "Coordination"
+          href: wp_landing_page.qmd
+        - text: "Communication"
+          href: wp_landing_page.qmd
+        - text: "AI/ML Lab"
+          href: wp_landing_page.qmd
+        - text: "Ecosystem Monitoring"
+          href: wp_landing_page.qmd
+        - text: "Standards, Methodology, Implementation"
+          href: wp_landing_page.qmd
+        - text: "Knowledge Repository"
+          href: wp_landing_page.qmd
+        - text: "Earth Observation Data"
+          href: wp_landing_page.qmd
+        - text: "Editing"
+          href: wp_landing_page.qmd
+        - text: "Imputation"
+          href: wp_landing_page.qmd
+        - text: "Text to Code"
+          href: wp_landing_page.qmd
+        - text: "Supply Chain Networks"
+          href: wp_landing_page.qmd
+        - text: "LLMs"
+          href: wp_landing_page.qmd 
+        - text: "Synthetic Data"
+          href: wp_landing_page.qmd 
+    - text: "News"
+      href: news.qmd
+    - text: "Deliverables & Tasks"
+      href: deliv_tasks.qmd
+    - text: "Consortium"
+      href: consortium.qmd
+    right:
+    - icon: fa-globe
+      href: https://github.com/aiml4os
+
+format: 
+  html:
+    theme: cosmo
+    css: styles.css
+    include-after: footer.html
+    toc: false
+
+
+  
