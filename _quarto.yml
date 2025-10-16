@@ -6,6 +6,7 @@ website:
   title: "AIML4OS"
   navbar: 
     logo: images/aiml_logo.png
+    title: false
     left:
     - text: "Home"
       href: index.qmd
